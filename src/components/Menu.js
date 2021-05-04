@@ -23,9 +23,6 @@ const Menu = ({ data }) => {
           </div>
         );
       })}
-      <div>
-        <button onClick={() => {}}>Valider mon panier</button>
-      </div>
     </div>
   );
 };

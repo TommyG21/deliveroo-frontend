@@ -26,6 +26,16 @@ function App() {
     <div className="container">
       <Hero data={data.restaurant} />
       <Content data={data.categories} />
+      <div className="basket">
+        <button
+          onClick={() => {
+            return console.log(data.item);
+          }}
+        >
+          Valider mon panier
+        </button>
+      </div>
+      <footer>Fait avec React grâce au Réacteur par Tom</footer>
     </div>
   );
 }
