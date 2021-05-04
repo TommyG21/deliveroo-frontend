@@ -1,1 +1,17 @@
-/* Other rules */
+.container {
+  margin-left: 350px;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  border: dashed;
+  border-radius: 10px;
+}
+
+.img {
+  border-radius: 10px;
+}
